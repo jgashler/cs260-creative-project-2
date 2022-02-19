@@ -1,0 +1,305 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+}
+
+.bg-dark {
+  background-color: #808080 !important;
+}
+
+.top-nav {
+  height: 100px !important;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.btn-dark {
+  background-color: #656565 !important;
+  border-style: none;
+}
+
+.form-control {
+  display: inline-block !important;
+  text-align: right;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu {
+  background-color: #3344ff;
+  color: #ffffff;
+}
+
+.quote {
+  font-size: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  background-color: #808080;
+}
+
+body {
+  background-color: #f9f9f9;
+  margin: 0px;
+}
+
+.page {
+  background-color: #f9f9f9;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.copyright-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-container img {
+  width: 60%;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.content-container p {
+  float: left;
+}
+
+.content-container img {
+  float: right;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h3 {
+  padding-top: 20px;
+  text-decoration: underline;
+}
+
+p {
+  padding: 20px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.copyright {
+  font-size: 10px;
+  color: #303030;
+  padding-bottom: 50px;
+}
+
+.form-control, .btn {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  height: inherit;
+}
+
+.submit {
+  text-align: right;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.mission-li {
+  font-family: 'Roboto', sans-serif;
+  list-style-type: lower-roman;
+  text-align: left;
+}
+
+.ol {
+  text-align: left;
+  width: 60%;
+  padding-left: 20px;
+}
+
+table {
+  width: 100%;
+
+  color: #999;
+  border-collapse: collapse;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+table tr {
+    background-color: #d5d5d5;
+    transition: background-color ease-out 0.3s;
+    height: 100px;
+    border-width: 1px;
+    border-style: solid;
+
+}
+
+.older {
+  float: right;
+}
+
+td {
+  padding-left: 10px;
+}
+
+.timeago {
+  font-size: 10px;
+  text-align: center;
+}
+
+.top-td {
+  width: 120%;
+}
+
+.user-poster {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.center {
+  padding-left: 40%;
+}
+
+.description {
+  width: 80%;
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+
+a.topic-title, .forum-topics-list [class*="fa-"]:before {
+    color: #222;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .ol {
+    text-align: left;
+    width: 60%;
+    margin-left: 20px;
+    padding-left: 20px;
+  }
+
+  .mission-li {
+    width: 80%;
+  }
+
+  .content-container {
+    width: 110%;
+    margin-left: -7%;
+    margin-right: -10%;
+  }
+
+  .content-container img {
+    width: 85%;
+  }
+
+  .top-nav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+
+  .top-nav a.icon {
+    float: right;
+    display: block;
+  }
+
+  /* .active {
+      background-color: #070348;
+  } */
+  .top-nav.responsive {
+    position: relative;
+  }
+
+  .top-nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .top-nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .top-nav.responsive .dropdown {
+    float: none;
+  }
+
+  .top-nav.responsive .dropdown-content {
+    position: relative;
+  }
+
+  .top-nav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 900px) {
+  .page {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page-description {
+    margin-bottom: 60px;
+  }
+
+  .content-container {
+    width: 100%;
+  }
+
+  .content {
+    width: 350px;
+  }
+
+  .home-text {
+    width: 300px;
+  }
+
+  .home-img {
+    width: 500px;
+  }
+
+  .in-span {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #808080;
+    color: white;
+  }
+
+  .fixed-bottom {
+    height: 40px;
+  }
+}
